@@ -51,11 +51,19 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 Data Master
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="<?php echo site_url('kategori');?>">Kategori</a>
+                                    <a class="nav-link" href="<?php echo site_url('satuan');?>">Satuan</a>
+                                    <a class="nav-link" href="<?php echo site_url('supplier');?>">Supplier</a>
+                                    <a class="nav-link" href="<?php echo site_url('Kustomer/Kustomerlap');?>">Kustomer</a>
+                                    <a class="nav-link" href="<?php echo site_url('barang');?>">Barang</a>
+                                    <a class="nav-link" href="<?php echo site_url('user');?>">User</a>
+                                </nav>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="user">User</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Barang</a>
+                                    <a class="nav-link" href=""></a>
+                                    <a class="nav-link" href="layout-sidenav-light.html"></a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">

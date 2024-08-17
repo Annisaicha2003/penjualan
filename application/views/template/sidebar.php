@@ -16,13 +16,12 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="<?php echo site_url('katagori');?>">Katagori</a>
+                                    <a class="nav-link" href="<?php echo site_url('kategori');?>">Kategori</a>
                                     <a class="nav-link" href="<?php echo site_url('satuan');?>">Satuan</a>
                                     <a class="nav-link" href="<?php echo site_url('supplier');?>">Supplier</a>
-                                    <a class="nav-link" href="<?php echo site_url('Kustomer');?>">Kustomer</a>
+                                    <a class="nav-link" href="<?php echo site_url('Kustomer/Kustomerlap');?>">Kustomer</a>
                                     <a class="nav-link" href="<?php echo site_url('barang');?>">Barang</a>
                                     <a class="nav-link" href="<?php echo site_url('user');?>">User</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
@@ -33,14 +32,14 @@
                             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
                                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        Authentication
+                                        Laporan
                                         <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="login.html">Login</a>
-                                            <a class="nav-link" href="register.html">Register</a>
-                                            <a class="nav-link" href="password.html">Forgot Password</a>
+                                         <a class="nav-link" href="<?php echo site_url('Kustomer/Kustomerlap');?>">Kustomerlap</a> 
+                                         <a class="nav-link" href="register.html">Baranglap</a> 
+                                         <a class="nav-link" href="password.html">Satuanlap</a> 
                                         </nav>
                                     </div>
                                     <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
